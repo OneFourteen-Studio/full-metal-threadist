@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'trueLies';
+  src: url('src/fonts/True Lies.ttf'), format('truetype')
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #8B0909;
+  --secondary-color: #80060B;
+  --accent-color: #0C0B0B;
+  --text-color: #F6F4F4;
+
+  font-size: 10px;
+}
+
+body {
+  overflow: scroll;
+  height: 100vh;
+  width: 100vw;
+}
+
