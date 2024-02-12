@@ -1,0 +1,21 @@
+.nav-btn-container {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+
+.nav-btn {
+    background: none;
+    border: 1.5px solid var(--accent-color);
+    font-family: 'Cormorant Unicase';
+    color: var(--text-color);
+    text-decoration: underline;
+    
+    height: 3rem;
+    width: 13rem;
+   
+
+
+}

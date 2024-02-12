@@ -11,17 +11,19 @@
 }
 
 :root {
-  --primary-color: #8B0909;
-  --secondary-color: #80060B;
-  --accent-color: #0C0B0B;
-  --text-color: #F6F4F4;
-
+  height: 100svh;
+  width: 100svw;
+  
   font-size: 10px;
+  font-family: 'Cormorant Unicase';
+  color: var(--text-color);
 }
 
 body {
+  height: 100%;
+  width: 100%;
   overflow: scroll;
-  height: 100vh;
-  width: 100vw;
+  background: var(--primary-color);
+  margin: 10px 0px
 }
 

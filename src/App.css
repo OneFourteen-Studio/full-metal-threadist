@@ -1,0 +1,19 @@
+html {
+  --primary-color: #8B0909;
+  --secondary-color: #80060B;
+  --accent-color: #0C0B0B;
+  --text-color: #F6F4F4;
+}
+
+#root {
+  height: 100%;
+  width: 100%
+}
+
+h1 {
+  font-family: 'trueLies';
+  font-size: 4.8rem;
+  font-weight: 400;
+  color: var(--text-color);
+  text-align: center;
+}
