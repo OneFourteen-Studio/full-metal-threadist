@@ -4,7 +4,7 @@ const OrderForm = () => {
   return (
     <div className='order-form-container'>
         <h2 className='form-title'>Ready to order?</h2>
-        <form name='order-form' method='POST' className='order-form' >
+        <form name='order-form' method='POST' className='order-form' encType="multipart/form-data">
 
           <input type='hidden' name='form-name' value='order-form' />
 
