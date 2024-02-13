@@ -7,6 +7,24 @@
     <title>Vite + React</title>
   </head>
   <body>
+    <form name='fileForm' netlify netlify-honeypot="bot-field" hidden>
+      <input required type='text' name='name' />
+      <input required type='text' name='email'/>
+      <input required type='text' name='street-address'/>
+      <input type='text' name='apt-suite'/>
+      <input required type='text' name='city'/>
+      <input required type='text' name='state'/>
+      <input required type='text' name='zip-code'/>
+      <select required name='hoop-size'>
+        <option value=''></option>
+        <option value='5 inches'></option>
+        <option value='7 inches'></option>
+        <option value='10 inches'></option>
+      </select>
+      <input required type='number' name='image'/>
+      <input  required name='file' type='file'/> 
+      <input  required type='checkbox' name='consent'/>
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
