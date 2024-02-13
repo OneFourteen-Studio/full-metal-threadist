@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
 
 @font-face {
-  font-family: 'trueLies';
-  src: url('src/fonts/True Lies.ttf'), format('truetype')
+  font-family: 'anvil';
+  src: url('src/fonts/Anvil-8eO2.ttf'), format('truetype')
 }
 
 * {
