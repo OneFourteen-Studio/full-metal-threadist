@@ -9,7 +9,7 @@ function App() {
     <>
       <h1>FullMetal Threadist</h1>
       <NavButtons />
-      <Images source="~/assets/decoration 1.svg" alt='Alchmey Symbol' className='image1' />
+      <Images source="~/src/assets/decoration 1.svg" alt='Alchmey Symbol' className='image1' />
       <OrderForm />
     </>
   )
