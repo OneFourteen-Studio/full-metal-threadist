@@ -2,6 +2,7 @@ import './App.css'
 import NavButtons from './components/NavButtons'
 import Images from './components/Images'
 import OrderForm from './components/OrderForm'
+import decoration from './assets/decoration 1.svg'
 function App() {
   
 
@@ -9,7 +10,7 @@ function App() {
     <>
       <h1>FullMetal Threadist</h1>
       <NavButtons />
-      <Images source="src/assets/decoration 1.svg" alt='Alchmey Symbol' className='image1' />
+      <Images source={decoration} alt='Alchmey Symbol' className='image1' />
       <OrderForm />
     </>
   )
