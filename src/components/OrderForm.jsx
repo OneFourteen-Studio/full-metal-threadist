@@ -4,8 +4,9 @@ const OrderForm = () => {
   return (
     <div className='order-form-container'>
         <h2 className='form-title'>Ready to order?</h2>
-        <form name='fileForm' encType='multipart/form-data' data-netlify="true" className='order-form'>
+        <form name='fileForm' method='POST' data-netlify="true" className='order-form'>
           <input type='hidden' name='form-name' value='fileForm'/>
+
           <div className='top-form-container'>
             <input required type='text' name='name' autoComplete='name' className='form-input' placeholder='Full name' />
             <input required type='text' name='email' autoComplete='email' className='form-input' placeholder='Email'/>
