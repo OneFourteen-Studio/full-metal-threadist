@@ -40,7 +40,7 @@ const OrderForm = () => {
           
           <div className='upload-container'>
             <label htmlFor='file' className='upload-label'>Add an image to upload</label>
-            <input  required name='file' type='file' className='upload' />
+            <input  required name='file' type='file' className='upload' accept='image/*' />
           </div>
           
           <div className='checkbox-container'>
