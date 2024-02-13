@@ -2,17 +2,50 @@ import './OrderForm.css'
 
 const OrderForm = () => {
   return (
-    <div>
-        <h2>Ready to order?</h2>
-        <form name='order' method='POST' data-netlify='true'>
-            <p>
-                <label>Full name</label>
-                <input type='text' name='name' />
-            </p>
-            <p>
-                <label>Email</label>
-                <input type='text' name='email'/>
-            </p>
+    <div className='order-form-container'>
+        <h2 className='form-title'>Ready to order?</h2>
+        <form name='fileForm' encType='multipart/form-data' data-netlify="true" className='order-form'>
+          <div className='top-form-container'>
+            <input required type='text' name='name' autoComplete='name' className='form-input' placeholder='Full name' />
+            <input required type='text' name='email' autoComplete='email' className='form-input' placeholder='Email'/>
+            <input required type='text' name='street-address' autoComplete='address-line1' className='form-input' placeholder='Address'/>
+            <input type='text' name='apt-suite' autoComplete='address-line2' className='form-input' placeholder='Apartment, suite etc.'/>
+          </div>
+
+          <div className='address-container'>
+            <input required type='text' name='city' autoComplete='address-level2' className=' city form-input' placeholder='City'/>
+            <input required type='text' name='state' autoComplete='address-level1' className=' state form-input' placeholder='State'/>
+            <input required type='text' name='zip-code' autoComplete='postal-code' className=' zip form-input' placeholder='Zip code'/>
+            
+
+          </div>
+          
+          <div className='project-size'>
+            <select required name='hoop-size' className='dropdown-options'>
+              <option value=''>Hoop Size</option>
+              <option value='5 inches'>5 inches</option>
+              <option value='7 inches'>7 inches</option>
+              <option value='10 inches'>10 inches</option>
+            </select>
+
+            <div className='image-size-container'>
+              <label htmlFor='image' className='image-label'>Your Image size (in inches)</label>
+              <input required type='number' name='image' className='image-size'/>
+            </div>
+            
+          </div> 
+          
+          <div className='upload-container'>
+            <label htmlFor='file' className='upload-label'>Add an image to upload</label>
+            <input  required name='file' type='file' className='upload' />
+          </div>
+          
+          <div className='checkbox-container'>
+          <input  required type='checkbox' name='consent' className='checkbox'/>
+          <label htmlFor='consent' className='checkbox-label'>I consent to my order being featured on social media</label>
+          </div>
+          
+          <button type='submit' className='submit-btn'>Place order</button>
         </form>
     </div>
     

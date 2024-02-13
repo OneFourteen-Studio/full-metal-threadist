@@ -24,6 +24,6 @@ body {
   width: 100%;
   overflow: scroll;
   background: var(--primary-color);
-  margin: 10px 0px
+  margin: 10px 0
 }
 

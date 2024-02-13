@@ -1,0 +1,141 @@
+/* using flexbox */
+.order-form-container, .order-form, .upload-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center
+}
+
+.form-title {
+    text-align: center;
+    font-size: 3rem
+}
+
+
+.order-form-container {
+    width: 100%;
+}
+
+.order-form {
+    width: 90%;
+}
+
+.form-input {
+    height: 3.2rem;
+    width: 100%;
+}
+
+
+.form-input, .image-size {
+    border: none;
+    border-bottom: 1.5px solid var(--accent-color);
+}
+
+.form-input, .dropdown-options, .image-size, .submit-btn {
+    background: none;
+}
+
+.form-input[type=text], .form-input::placeholder, .dropdown-options, .image-size, .image-size::placeholder, .submit-btn {
+    font-family: 'Cormorant Unicase';
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--text-color);
+}
+
+.address-container {
+    display: flex;
+    justify-content: space-between
+}
+
+.city {
+    width: 40%;
+}
+
+.state, .zip {
+    width: 25%
+}
+
+/* select */
+
+.project-size {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem
+}
+
+.dropdown-options, .image-size {
+    height: 3.2rem;
+}
+
+.dropdown-options {
+    width: 45%;
+    border: 1.5px solid var(--accent-color)
+    
+   
+}
+
+.dropdown-options, .submit-btn {
+    border: 1.5px solid var(--accent-color)
+}
+
+.image-size-container {
+   width: 50%;
+   display: flex
+   
+   
+}
+
+.image-size {
+    width: 50%
+}
+
+.image-label, .upload-label {
+    font-size: 1.4rem
+}
+
+.upload-container {
+    height: 10rem;
+    width: 100%;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+    background: var(--secondary-color);
+    box-shadow: inset 0px -2px 0px rgba(255, 255, 255, 0.15), inset 0px 2px 2px rgba(0, 0, 0, 0.1)
+}
+
+.upload {
+    margin: 0 auto;
+    width: 50%;
+}
+
+
+.checkbox-container {
+    width: 100%;
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.checkbox-label {
+    font-size: 1.2rem;
+    font-weight: 300
+}
+
+.checkbox{
+    accent-color: var(--accent-color) ;
+    height: 2rem;
+    width: 5%
+}
+
+.submit-btn {
+    width: 50%;
+    height: 3rem;
+    text-decoration: underline;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background: var(--accent-color)
+}
+
