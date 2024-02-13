@@ -2,12 +2,11 @@
 
 @font-face {
   font-family: 'ANVIL';
-  src: url('ANVIL.eot');
-  src: url('ANVIL.eot?#iefix') format('embedded-opentype'),
-      url('ANVIL.woff2') format('woff2'),
-      url('ANVIL.woff') format('woff'),
-      url('ANVIL.ttf') format('truetype'),
-      url('ANVIL.svg#ANVIL') format('svg');
+  src: url('ANVIL.eot'),
+    url('/src/fonts/ANVIL.woff2') format('woff2'),
+    url('/src/fonts/ANVIL.woff') format('woff'),
+    url('/src/fonts/ANVIL.ttf') format('truetype'),
+    url('/src/fonts/ANVIL.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
