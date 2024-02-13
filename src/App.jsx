@@ -2,7 +2,7 @@ import './App.css'
 import NavButtons from './components/NavButtons'
 import Images from './components/Images'
 import OrderForm from './components/OrderForm'
-import decoration from './assets/decoration 1.svg'
+import decoration from '/src/assets/decoration 1.svg'
 function App() {
   
 
