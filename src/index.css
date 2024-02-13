@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
 
 @font-face {
-  font-family: 'anvil';
-  src: url('src/fonts/Anvil-8eO2.ttf'), format('truetype')
+  font-family: 'ANVIL';
+  src: url('ANVIL.woff2') format('woff2'),
+      url('ANVIL.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
