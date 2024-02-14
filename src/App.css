@@ -22,17 +22,25 @@ h1 {
 
 .order-form-container {
   position: absolute;
-  top: 27%;
-  left: 0
+  top: 21rem;
 }
 
-.homepage {
-  height: 80%
+.image2 {
+  position: absolute;
+  top: 69rem;
+  left: -0.5rem
 }
 
 .general-info-container {
   position: absolute;
-  top: 74rem;
-  left: 0
+  top: 77rem;
 }
+
+.image3 {
+  position: absolute;
+  top:104rem;
+  left: 4rem
+}
+
+
 

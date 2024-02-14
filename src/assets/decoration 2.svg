@@ -1,7 +1,69 @@
-<svg width="363" height="490" viewBox="0 0 363 490" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="95.1987" y="94.9187" width="214.629" height="214.629" transform="rotate(36.2922 95.1987 94.9187)" stroke="#0C0B0B" stroke-opacity="0.3" stroke-width="2"/>
-<path d="M-1.41124 230.658L197.574 143.277L173.755 359.294L-1.41124 230.658Z" stroke="#0C0B0B" stroke-opacity="0.3" stroke-width="2"/>
-<path d="M72.8569 129.525L49.0383 345.542L248.023 258.161L72.8569 129.525Z" stroke="#0C0B0B" stroke-opacity="0.3" stroke-width="2"/>
-<path d="M133.308 120.377L2.73943 294.108L218.479 320.318L133.308 120.377Z" stroke="#0C0B0B" stroke-opacity="0.3" stroke-width="2"/>
-<path d="M17.8721 169.551L233.612 195.761L103.043 369.492L17.8721 169.551Z" stroke="#0C0B0B" stroke-opacity="0.3" stroke-width="2"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="323"
+   height="450"
+   viewBox="0 0 363 490"
+   fill="none"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="decoration 2.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.17322"
+     inkscape:cx="181.9778"
+     inkscape:cy="245.05207"
+     inkscape:window-width="1392"
+     inkscape:window-height="956"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4" />
+  <rect
+     x="149.24178"
+     y="8.418952"
+     width="248.23271"
+     height="248.23216"
+     transform="matrix(0.80601101,0.59190054,-0.59190638,0.80600672,0,0)"
+     stroke="#0c0b0b"
+     stroke-opacity="0.3"
+     stroke-width="2.14127"
+     id="rect1" />
+  <path
+     d="M 3.5711638,252.11277 233.71146,151.05134 206.16312,400.88813 Z"
+     stroke="#0c0b0b"
+     stroke-opacity="0.3"
+     stroke-width="2.15167"
+     id="path1" />
+  <path
+     d="M 89.46744,135.14631 61.91957,384.98311 292.05924,283.92166 Z"
+     stroke="#0c0b0b"
+     stroke-opacity="0.3"
+     stroke-width="2.15167"
+     id="path2" />
+  <path
+     d="M 159.38334,124.5661 8.3717026,325.49656 257.88953,355.81003 Z"
+     stroke="#0c0b0b"
+     stroke-opacity="0.3"
+     stroke-width="2.15167"
+     id="path3" />
+  <path
+     d="M 25.873689,181.43882 275.39191,211.75228 124.37977,412.68274 Z"
+     stroke="#0c0b0b"
+     stroke-opacity="0.3"
+     stroke-width="2.15167"
+     id="path4" />
 </svg>

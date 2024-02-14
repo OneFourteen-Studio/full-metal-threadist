@@ -14,12 +14,23 @@ function App() {
       <div className='homepage'>
         <h1>FullMetal Threadist</h1>
         <NavButtons />
-        <Images source={decoration} alt='Alchmey Symbol' className='image1' />
+        
+        <div className='image1'>
+          <Images source={decoration} alt='Alchmey Symbol' />
+        </div>
+
         <OrderForm />
       </div>
       
-      <Images source={decoration2} alt='Alchmey Symbol' className='image2'/>
-      <Images source={decoration3} alt='Alchmey Symbol' className='image3'/>
+      <div className='image2'>
+        <Images source={decoration2} alt='Alchmey Symbol' />
+      </div>
+
+      <div className='image3'>
+        <Images source={decoration3} alt='Alchmey Symbol' />
+      </div>
+      
+      
       <Info />
     </>
   )
