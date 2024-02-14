@@ -55,8 +55,6 @@
     width: 25%
 }
 
-/* select */
-
 .project-size {
     display: flex;
     justify-content: space-between;
@@ -70,8 +68,6 @@
 .dropdown-options {
     width: 45%;
     border: 1.5px solid var(--accent-color)
-    
-   
 }
 
 .dropdown-options, .submit-btn {
