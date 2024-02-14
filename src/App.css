@@ -18,7 +18,7 @@ h1 {
   text-align: center;
 }
 
-.image1 {
+.image1, .image2, .image3 {
   position: relative;
 }
 
@@ -31,4 +31,505 @@ h1 {
 .homepage {
   height: 80%
 }
+
+.general-info-container {
+  position: absolute;
+  top: 74rem
+}
+
+/* general info */
+
+position: absolute;
+width: 367.11px;
+height: 885.94px;
+left: calc(50% - 367.11px/2 + 1.01px);
+top: 770.57px;
+
+
+
+/* general information */
+
+position: absolute;
+width: 288.44px;
+height: 35px;
+left: calc(50% - 288.44px/2 + 1.01px);
+top: 770.57px;
+
+font-family: 'Cormorant Unicase';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+
+color: #F6F4F4;
+
+
+
+/* bullet 1 */
+
+position: absolute;
+width: 65.01px;
+height: 65.01px;
+left: 7.67px;
+top: 871.7px;
+
+
+
+/* Polygon 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 17.16px;
+top: 879.83px;
+
+border: 1.5px solid #F6F4F4;
+
+
+/* Polygon 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 17.16px;
+top: 927.29px;
+
+border: 1.5px solid #F6F4F4;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* Polygon 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 7.67px;
+top: 912.53px;
+
+border: 1.5px solid #F6F4F4;
+transform: matrix(0.86, 0.51, 0.51, -0.86, 0, 0);
+
+
+/* Polygon 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 31.86px;
+top: 871.7px;
+
+border: 1.5px solid #F6F4F4;
+transform: rotate(30.63deg);
+
+
+/* here’s some information about my custom work! */
+
+position: absolute;
+width: 357px;
+height: 21px;
+left: 15.06px;
+top: 807.56px;
+
+font-family: 'Cormorant Unicase';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+
+color: #F6F4F4;
+
+
+
+/* bullet 2 */
+
+position: absolute;
+width: 65.03px;
+height: 65.01px;
+left: 6.96px;
+top: 1010.24px;
+
+
+
+/* Polygon 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 16.45px;
+top: 1018.38px;
+
+border: 1.5px solid #F6F4F4;
+
+
+/* Polygon 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 16.45px;
+top: 1065.83px;
+
+border: 1.5px solid #F6F4F4;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* Polygon 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 6.96px;
+top: 1051.08px;
+
+border: 1.5px solid #F6F4F4;
+transform: matrix(0.86, 0.51, 0.51, -0.86, 0, 0);
+
+
+/* Polygon 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 31.16px;
+top: 1010.24px;
+
+border: 1.5px solid #F6F4F4;
+transform: rotate(30.63deg);
+
+
+/* question 2 */
+
+position: absolute;
+width: 264px;
+height: 114.87px;
+left: 79.96px;
+top: 1009.97px;
+
+
+
+/* how long will I wait? */
+
+position: absolute;
+width: 217px;
+height: 19px;
+left: 79.96px;
+top: 1009.97px;
+
+font-family: 'Cormorant Unicase';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+color: #F6F4F4;
+
+
+
+/* The amount of time it takes me to finish a piece depends on the size, and the amount of detail. A full break down of the work time for your order will be provided when your order is placed. */
+
+position: absolute;
+width: 264px;
+height: 95.87px;
+left: 79.96px;
+top: 1028.97px;
+
+font-family: 'Cormorant Unicase';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* or 167% */
+
+color: #F6F4F4;
+
+
+
+/* question 1 */
+
+position: absolute;
+width: 265.88px;
+height: 99px;
+left: 78.09px;
+top: 871.7px;
+
+
+
+/* what kind of projects do you do? */
+
+position: absolute;
+width: 238.21px;
+height: 19px;
+left: 78.09px;
+top: 871.7px;
+
+font-family: 'Cormorant Unicase';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #F6F4F4;
+
+
+
+/* I specialize in working on anime or cartoon characters. However, providing your ideas do not include explicit and inappropriate content, all other ideas are welcomed! */
+
+position: absolute;
+width: 264px;
+height: 80px;
+left: 79.96px;
+top: 890.7px;
+
+font-family: 'Cormorant Unicase';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* or 167% */
+
+color: #F6F4F4;
+
+
+
+/* bullet 3 */
+
+position: absolute;
+width: 65.01px;
+height: 65.02px;
+left: 4.96px;
+top: 1164.11px;
+
+
+
+/* Polygon 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 14.45px;
+top: 1172.24px;
+
+border: 1.5px solid #F6F4F4;
+
+
+/* Polygon 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 14.45px;
+top: 1219.7px;
+
+border: 1.5px solid #F6F4F4;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* Polygon 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 4.96px;
+top: 1204.94px;
+
+border: 1.5px solid #F6F4F4;
+transform: matrix(0.86, 0.51, 0.51, -0.86, 0, 0);
+
+
+/* Polygon 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 29.14px;
+top: 1164.11px;
+
+border: 1.5px solid #F6F4F4;
+transform: rotate(30.63deg);
+
+
+/* bullet 4 */
+
+position: absolute;
+width: 65.01px;
+height: 65.02px;
+left: 4.96px;
+top: 1518.51px;
+
+
+
+/* Polygon 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 14.45px;
+top: 1526.64px;
+
+border: 1.5px solid #F6F4F4;
+
+
+/* Polygon 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 14.45px;
+top: 1574.1px;
+
+border: 1.5px solid #F6F4F4;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+/* Polygon 3 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 4.96px;
+top: 1559.34px;
+
+border: 1.5px solid #F6F4F4;
+transform: matrix(0.86, 0.51, 0.51, -0.86, 0, 0);
+
+
+/* Polygon 4 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 47.46px;
+height: 47.46px;
+left: 29.14px;
+top: 1518.51px;
+
+border: 1.5px solid #F6F4F4;
+transform: rotate(30.63deg);
+
+
+/* question 3 */
+
+position: absolute;
+width: 264px;
+height: 334.85px;
+left: 79.96px;
+top: 1164.11px;
+
+
+
+/* Pricing */
+
+position: absolute;
+width: 55.94px;
+height: 19px;
+left: 79.98px;
+top: 1164.11px;
+
+font-family: 'Cormorant Unicase';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+color: #F6F4F4;
+
+
+
+/* The price for your piece will depend on the size and the amount of detail your image, as well as the amount of time it will take to complete it. Below are the starting prices for each size hoop I use. 5 inch hoop (2 - 4in image) ~ $10 7 inch Hoop (5 - 6in image) ~ $20 10 inch hoop (7 - 9in image) ~ $30 If you would like a size that is not listed please feel free to email me to see what I can do for you! The final prices for your piece(s) will be quoted to you in an email after you have placed your order. Please be ready to submit a 50% deposit of your final total after you place an order. */
+
+position: absolute;
+width: 264px;
+height: 315.85px;
+left: 79.96px;
+top: 1183.11px;
+
+font-family: 'Cormorant Unicase';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+/* or 142% */
+
+color: #F6F4F4;
+
+
+
+/* question 4 */
+
+position: absolute;
+width: 264px;
+height: 138px;
+left: 78.09px;
+top: 1518.51px;
+
+
+
+/* Shipping */
+
+position: absolute;
+width: 61.65px;
+height: 19px;
+left: 78.1px;
+top: 1518.51px;
+
+font-family: 'Cormorant Unicase';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+
+color: #F6F4F4;
+
+
+
+/* The quoted price will include the shipping cost! Please understand I take special care packaging each piece and ensure everything arrives to you in perfect condition. Unfortunately I am not liable for anything that happens to your order after I send it out. I will be more than willing to work with you if anything occurs. */
+
+position: absolute;
+width: 264px;
+height: 119px;
+left: 78.09px;
+top: 1537.51px;
+
+font-family: 'Cormorant Unicase';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+/* or 142% */
+
+color: #F6F4F4;
+
 

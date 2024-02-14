@@ -45,7 +45,7 @@ const Info = () => {
                     If you would like a size that is not listed please feel free to email me to see what I can do for you! The final prices for your piece(s) will be quoted to you in an email after you have placed your order.
                 </p>
 
-                
+
             </div>
         </div>
         
