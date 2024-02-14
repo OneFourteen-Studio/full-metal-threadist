@@ -19,6 +19,9 @@ h1 {
   text-align: center;
 }
 
+.image1 {
+  margin: 0 auto;
+}
 
 .order-form-container {
   position: absolute;

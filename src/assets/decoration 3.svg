@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="335"
-   height="486"
+   width="375"
+   height="508"
    viewBox="0 0 375 508"
    fill="none"
    version="1.1"
@@ -24,7 +24,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.72"
-     inkscape:cx="186.80556"
+     inkscape:cx="209.02778"
      inkscape:cy="253.47222"
      inkscape:window-width="1392"
      inkscape:window-height="956"
@@ -33,8 +33,8 @@
      inkscape:window-maximized="0"
      inkscape:current-layer="svg4" />
   <rect
-     x="-107.70193"
-     y="-467.12711"
+     x="-134.7962"
+     y="-452.39963"
      width="257.36356"
      height="257.36319"
      transform="matrix(0.80601062,-0.59190107,-0.59190514,-0.80600763,0,0)"
@@ -43,25 +43,25 @@
      stroke-width="2.3096"
      id="rect1" />
   <path
-     d="M 73.802154,277.49445 312.46528,382.29853 283.89647,123.20938 Z"
+     d="M 43.246598,281.66112 281.90972,386.4652 253.34091,127.37605 Z"
      stroke="#0c0b0b"
      stroke-opacity="0.3"
      stroke-width="2.30961"
      id="path1" />
   <path
-     d="M 162.87946,398.79258 134.31066,139.70343 372.97378,244.50752 Z"
+     d="M 132.3239,402.95925 103.7551,143.8701 342.41822,248.67419 Z"
      stroke="#0c0b0b"
      stroke-opacity="0.3"
      stroke-width="2.30961"
      id="path2" />
   <path
-     d="M 235.38757,409.76436 78.783998,201.39296 337.54194,169.95693 Z"
+     d="M 204.83201,413.93103 48.228442,205.55963 306.98638,174.1236 Z"
      stroke="#0c0b0b"
      stroke-opacity="0.3"
      stroke-width="2.30961"
      id="path3" />
   <path
-     d="M 96.934123,350.78629 355.69207,319.34911 199.08733,110.97771 Z"
+     d="M 66.378567,354.95296 325.13651,323.51578 168.53177,115.14438 Z"
      stroke="#0c0b0b"
      stroke-opacity="0.3"
      stroke-width="2.30961"
