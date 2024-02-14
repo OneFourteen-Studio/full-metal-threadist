@@ -33,7 +33,7 @@ const OrderForm = () => {
 
             <div className='image-size-container'>
               <label htmlFor='image' className='image-label'>Your Image size (in inches)</label>
-              <input required type='number' name='image' className='image-size'/>
+              <input required type='number' name='image-size' className='image-size'/>
             </div>
             
           </div> 
@@ -44,7 +44,7 @@ const OrderForm = () => {
           </div>
           
           <div className='checkbox-container'>
-          <input  required type='checkbox' name='consent' className='checkbox'/>
+          <input type='checkbox' name='consent' className='checkbox'/>
           <label htmlFor='consent' className='checkbox-label'>I consent to my order being featured on social media</label>
           </div>
           
