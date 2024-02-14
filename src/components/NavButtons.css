@@ -1,8 +1,7 @@
 .nav-btn-container {
     display: flex;
-    justify-content: space-evenly;
-    margin: 10px auto 0 auto;
-    width: 80%
+    justify-content: center;
+    gap: 1rem
 
 }
 
