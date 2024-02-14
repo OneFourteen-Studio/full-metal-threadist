@@ -18,8 +18,8 @@ function App() {
         <OrderForm />
       </div>
       
-      <Images source={decoration2} alt='Alchmey Symbol' className='image2'/>
-      <Images source={decoration3} alt='Alchmey Symbol' className='image3'/>
+      {/* <Images source={decoration2} alt='Alchmey Symbol' className='image2'/>
+      <Images source={decoration3} alt='Alchmey Symbol' className='image3'/> */}
       <Info />
     </>
   )
