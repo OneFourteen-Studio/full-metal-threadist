@@ -36,7 +36,8 @@ const CustomForm = ({ status, message, onValidated }) => {
             placeholder='Email'
             type="email" 
             value={email} 
-            onChange={(e) => setEmail(e.target.value)} 
+            onChange={(e) => setEmail(e.target.value)}
+            required 
         />
         <input className="subscribe-btn" type='submit' value='Join us!' />
     </form>
