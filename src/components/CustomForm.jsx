@@ -16,6 +16,8 @@ const CustomForm = ({ status, message, onValidated }) => {
 
   return (
     <form className="mc-form" onSubmit={handleSubmit}>
+        {status === 'sending' && <div>We are sending your email</div> }
+
         {status === 'error' && (
             <div 
                 className="message" 
