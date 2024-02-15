@@ -19,7 +19,7 @@ const CustomForm = ({ status, message, onValidated }) => {
         email &&
         email.indexOf('@') > -1 &&
         onValidated({
-            EMAIL: email
+            MERGE0: email
         })
     }
 
