@@ -7,9 +7,11 @@ html {
 
 #root {
   height: 100%;
-  width: 100%;
-  position: relative
+  overflow: scroll;
+  overflow-x: hidden;
+  position: relative;
 }
+
 
 h1 {
   font-family: 'True Lies';
@@ -43,6 +45,14 @@ h1 {
   position: absolute;
   top:104rem;
   left: 6.5rem
+}
+
+.contact-container {
+  position: absolute;
+  top: 169.3rem;
+  background: var(--secondary-color);
+  height: 19.7rem;
+  width: 100%;
 }
 
 

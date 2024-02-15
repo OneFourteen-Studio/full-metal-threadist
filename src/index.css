@@ -19,19 +19,19 @@
   margin: 0;
 }
 
+
 :root {
-  height: 100svh;
-  width: 100svw;
-  
+  height: 100%;
+  width: 100%;
   font-size: 10px;
   font-family: 'Cormorant Unicase';
   color: var(--text-color);
+  
 }
+
 
 body {
   height: 100%;
-  width: 100%;
-  overflow: scroll;
   background: var(--primary-color);
   margin: 10px 0
 }

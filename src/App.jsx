@@ -6,6 +6,8 @@ import decoration from '/src/assets/decoration 1.svg'
 import decoration2 from '/src/assets/decoration 2.svg'
 import decoration3 from '/src/assets/decoration 3.svg'
 import Info from './components/Info'
+import Contact from './components/Contact'
+
 function App() {
   
 
@@ -30,8 +32,8 @@ function App() {
         <Images source={decoration3} alt='Alchmey Symbol' />
       </div>
       
-      
       <Info />
+      <Contact />
     </>
   )
 }

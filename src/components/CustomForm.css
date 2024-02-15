@@ -1,0 +1,37 @@
+.mc-form {
+    display: flex;
+    align-items: center
+}
+
+.message {
+    font-size: 1.4rem
+}
+
+.subscribe-input {
+    background: var(--text-color);
+    border: none;
+    height: 3rem;
+    width: 22.5rem;
+    border-radius: 0;
+    padding-left: 1rem
+}
+
+.subscribe-input[type=email], .subscribe-input::placeholder {
+    font-family: 'Cormorant Unicase';
+    font-size: 1.8rem;
+    color: var(--accent-color);
+}
+
+
+.subscribe-btn {
+    border: none;
+    background: var(--accent-color);
+    color: var(--text-color);
+    font-family: 'Cormorant Unicase';
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 7.5rem
+}
+
+
+

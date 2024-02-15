@@ -1,0 +1,42 @@
+.contact-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.contact-text {
+    text-align: center;
+}
+
+.contact-title{
+    font-size: 3rem;
+}
+
+.contact-tag {
+    font-size: 1.4rem
+}
+
+
+.follow-us {
+    font-size: 1.6rem;
+    text-align: center;
+    
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.social-tag {
+    font-family: 'True Lies';
+    font-size: 1.6rem;
+}
