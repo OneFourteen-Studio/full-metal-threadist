@@ -30,7 +30,8 @@
     font-family: 'Cormorant Unicase';
     font-size: 1.2rem;
     height: 3rem;
-    width: 7.5rem
+    width: 7.5rem;
+    border-radius: 0;
 }
 
 
