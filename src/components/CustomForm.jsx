@@ -1,9 +1,18 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
+
 import './CustomForm.css'
 
 const CustomForm = ({ status, message, onValidated }) => {
     
     const [email, setEmail] = useState('')
+
+    useEffect(() => {
+        if(status === "success") clearFields();
+    }, [status])
+    
+    const clearFields = () => {
+        setEmail('');
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -16,30 +25,51 @@ const CustomForm = ({ status, message, onValidated }) => {
 
   return (
     <form className="mc-form" onSubmit={handleSubmit}>
-        {status === 'sending' && <div>We are sending your email</div> }
+
+    <p className='contact-tag'>
+        {status === 'success'
+            ? 'Success!'
+            : "Join the email list for future updates!"
+        }
+    </p> 
+        {status === 'sending' && (
+        <div className='message sending-message'>
+            sending...
+        </div> 
+    )}
 
         {status === 'error' && (
             <div 
-                className="message" 
+                className="message error-message" 
                 dangerouslySetInnerHTML={{__html: message}}
-            ></div>
+            />
         )}
 
         {status === 'success' && 
-            <div className="message">
-                Thanks for subscribing!
-            </div>
+            <div 
+                className="message success-message"
+                dangerouslySetInnerHTML={{ __html: message }}
+            /> 
         }
 
-        <input 
-            className="subscribe-input"
-            placeholder='Email'
-            type="email" 
-            value={email} 
-            onChange={(e) => setEmail(e.target.value)}
-            required 
-        />
-        <input className="subscribe-btn" type='submit' value='Join us!' />
+        {status !== 'success' ? (
+            <div className="mc-field-container">
+                <input 
+                    className="subscribe-input"
+                    placeholder='Email'
+                    type="email" 
+                    value={email} 
+                    onChange={(e) => setEmail(e.target.value)}
+                    required 
+                />
+            </div>
+        ): null}
+
+        {status !== 'success' ? (
+            <input className="subscribe-btn" type='submit' value='Join us!' />
+        ): null}
+
+        
     </form>
   )
 }
