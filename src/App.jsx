@@ -34,6 +34,7 @@ function App() {
       
       <Info />
       <Contact />
+      {console.log(import.meta.env.VITE_MAILCHIMP_U)}
     </>
   )
 }

@@ -19,19 +19,24 @@ const CustomForm = ({ status, message, onValidated }) => {
         email &&
         email.indexOf('@') > -1 &&
         onValidated({
-            MERGE0: email
+            EMAIL: email
         })
     }
 
   return (
-    <form className="mc-form" onSubmit={handleSubmit}>
+    <form className="mc-form" onSubmit={(e) => handleSubmit(e)}>
+        <div className="contact-text">
+            <h2 className='contact-title'>Stay in contact</h2>
 
-    <p className='contact-tag'>
-        {status === 'success'
-            ? 'Success!'
-            : "Join the email list for future updates!"
-        }
-    </p> 
+            <p className='contact-tag'>
+                {status === 'success'
+                    ? 'Success!'
+                    : "Join the email list for future updates!"
+                }
+            </p> 
+        </div>
+        
+
         {status === 'sending' && (
         <div className='message sending-message'>
             sending...
@@ -52,22 +57,26 @@ const CustomForm = ({ status, message, onValidated }) => {
             /> 
         }
 
-        {status !== 'success' ? (
-            <div className="mc-field-container">
-                <input 
-                    className="subscribe-input"
-                    placeholder='Email'
-                    type="email" 
-                    value={email} 
-                    onChange={(e) => setEmail(e.target.value)}
-                    required 
-                />
-            </div>
-        ): null}
+        <div className="input-and-btn">
+            {status !== 'success' ? (
+                <div className="mc-field-container">
+                    <input 
+                        className="subscribe-input"
+                        placeholder='Email'
+                        type="email" 
+                        value={email} 
+                        onChange={(e) => setEmail(e.target.value)}
+                        required 
+                    />
+                </div>
+            ): null}
 
-        {status !== 'success' ? (
-            <input className="subscribe-btn" type='submit' value='Join us!' />
-        ): null}
+            {status !== 'success' ? (
+                <input className="subscribe-btn" type='submit' value='Join us!' />
+            ): null}
+        </div>
+
+        
 
         
     </form>

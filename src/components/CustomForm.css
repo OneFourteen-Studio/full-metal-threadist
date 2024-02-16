@@ -1,6 +1,18 @@
 .mc-form {
     display: flex;
-    align-items: center
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    height: 50%
+}
+
+.contact-text {
+    text-align: center;
+}
+
+.input-and-btn {
+    display: flex;
+    justify-self: end
 }
 
 .message {
@@ -31,7 +43,7 @@
     font-size: 1.2rem;
     height: 3rem;
     width: 7.5rem;
-    border-radius: 0;
+    border-radius: 0 !important; 
 }
 
 

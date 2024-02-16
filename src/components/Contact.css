@@ -1,13 +1,12 @@
 .contact-container {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center
+
 }
 
-.contact-text {
-    text-align: center;
-}
+
 
 .contact-title{
     font-size: 3rem;

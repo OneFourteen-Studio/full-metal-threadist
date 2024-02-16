@@ -5,10 +5,6 @@ import MailchimpForm from './MailchimpForm'
 const Contact = () => {
   return (
     <div className='contact-container'>
-        <div className='contact-text'>
-            <h2 className='contact-title'>Stay in contact</h2>
-            <p className='contact-tag'>Join the email list to stay up to date!</p>
-        </div>
 
        <MailchimpForm />
 
