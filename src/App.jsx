@@ -12,13 +12,6 @@ import ThankYou from './components/ThankYou'
 import { useState } from 'react'
 
 function App() {
-  const [submitted, setSubmitted] = useState(false)
-
-  const onSubmitHandler = (e) => {
-    e.preventDefault()
-    setSubmitted(true)
-  }
-
   return (
     <>
       <div className='homepage'>
@@ -29,7 +22,7 @@ function App() {
           <Images source={decoration} alt='Alchmey Symbol' />
         </div>
 
-        {submitted ? <ThankYou/> : <OrderForm onSubmit={onSubmitHandler}/>}
+        <OrderForm/>
 
       </div>
       
