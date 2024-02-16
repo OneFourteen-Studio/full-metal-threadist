@@ -1,6 +1,9 @@
 .thank-you-container {
     position: absolute;
-    top: 26rem
+    top: 26rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center
 }
 
 .thank-you-title {
@@ -11,5 +14,5 @@
 .thank-you-p {
     font-size: 1.8rem;
     text-align: center;
-    width: 
+    width: 90%
 }

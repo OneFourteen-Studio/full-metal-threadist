@@ -29,7 +29,7 @@ function App() {
           <Images source={decoration} alt='Alchmey Symbol' />
         </div>
 
-        {submitted ? <ThankYou/> : <OrderForm onSubmit={onSubmitHandler}/> }
+        {submitted ? <OrderForm onSubmit={onSubmitHandler}/> : <ThankYou/> }
 
       </div>
       
