@@ -7,7 +7,7 @@ const OrderForm = ({ onSubmit }) => {
     <div className='order-form-container'>
         <h2 className='form-title'>Ready to order?</h2>
         <h3 className='reminder'>* Please read the general information before you place your order</h3>
-        <form name='order-form' method='POST' className='order-form' encType="multipart/form-data" onSubmit={onSubmit}>
+        <form name='order-form' method='POST' className='order-form' encType="multipart/form-data" onSubmit={onSubmit} action='/components/ThankYou'>
           <input type='hidden' name='form-name' value='order-form' />
 
           <div className='top-form-container'>

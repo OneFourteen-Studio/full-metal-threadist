@@ -14,7 +14,8 @@ import { useState } from 'react'
 function App() {
   const [submitted, setSubmitted] = useState(false)
 
-  const onSubmitHandler = () => {
+  const onSubmitHandler = (e) => {
+    e.preventDefault()
     setSubmitted(true)
   }
 
