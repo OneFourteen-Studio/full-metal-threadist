@@ -14,8 +14,7 @@ import { useState } from 'react'
 function App() {
   const [submitted, setSubmitted] = useState(false)
 
-  const onSubmitHandler = (e) => {
-    e.preventDefault()
+  const onSubmitHandler = () => {
     setSubmitted(true)
   }
 
@@ -29,7 +28,7 @@ function App() {
           <Images source={decoration} alt='Alchmey Symbol' />
         </div>
 
-        {submitted ? <OrderForm onSubmit={onSubmitHandler}/> : <ThankYou/> }
+        {submitted ? <ThankYou/> : <OrderForm onSubmit={onSubmitHandler}/>}
 
       </div>
       
