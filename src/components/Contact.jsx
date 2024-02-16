@@ -4,7 +4,7 @@ import instaIcon from '/src/assets/icons8-instagram.svg'
 import MailchimpForm from './MailchimpForm'
 const Contact = () => {
   return (
-    <div className='contact-container'>
+    <div className='contact-container' id='contact'>
 
        <MailchimpForm />
 

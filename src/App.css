@@ -10,6 +10,7 @@ html {
   overflow: scroll;
   overflow-x: hidden;
   position: relative;
+  scroll-behavior: smooth;
 }
 
 
@@ -49,10 +50,11 @@ h1 {
 
 .contact-container {
   position: absolute;
-  top: 169.3rem;
+  top: 155rem;
   background: var(--secondary-color);
   height: 19.7rem;
   width: 100%;
+  
 }
 
 

@@ -7,9 +7,17 @@ import decoration2 from '/src/assets/decoration 2.svg'
 import decoration3 from '/src/assets/decoration 3.svg'
 import Info from './components/Info'
 import Contact from './components/Contact'
+import ThankYou from './components/ThankYou'
+
+import { useState } from 'react'
 
 function App() {
-  
+  const [submitted, setSubmitted] = useState(false)
+
+  const onSubmitHandler = (e) => {
+    e.preventDefault()
+    setSubmitted(true)
+  }
 
   return (
     <>
@@ -21,7 +29,8 @@ function App() {
           <Images source={decoration} alt='Alchmey Symbol' />
         </div>
 
-        <OrderForm />
+        {submitted ? <ThankYou/> : <OrderForm onSubmit={onSubmitHandler}/> }
+
       </div>
       
       <div className='image2'>
@@ -34,7 +43,6 @@ function App() {
       
       <Info />
       <Contact />
-      {console.log(import.meta.env.VITE_MAILCHIMP_U)}
     </>
   )
 }

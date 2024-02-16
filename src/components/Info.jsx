@@ -3,10 +3,10 @@ import Images from './Images'
 import bulletPoint from '/src/assets/bullet-point.svg'
 const Info = () => {
   return (
-    <div className='general-info-container'>
+    <div className='general-info-container' id='general-info'>
         <div className='info-title-container'>
             <h2 className='info-title'>General Information</h2>
-            <p className='info-tag'>Here&apos;s some inforamtion about my custom work! </p>
+            <p className='info-tag'>Here&apos;s some information about my custom work! </p>
         </div>
 
         <div className='question1 questions'>
@@ -41,7 +41,7 @@ const Info = () => {
                     <li>7 inch Hoop (5 - 6in image) ~ $20</li>
                     <li>10 inch hoop (7 - 9in image) ~ $30</li>
                 </ul>
-                <p>
+                <p className='question-text'>
                     If you would like a size that is not listed please feel free to email me to see what I can do for you! The final prices for your piece(s) will be quoted to you in an email after you have placed your order.
                 </p>
 
